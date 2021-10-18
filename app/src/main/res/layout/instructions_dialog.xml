@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CCFF90"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:scrollbarSize="10sp"
+    android:verticalScrollbarPosition="defaultPosition">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:layout_weight="0"
+        android:background="#FFFFFF"
+        android:backgroundTint="#94F4FF81"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center"
+        android:text="@string/how_to_get_your_business_review_links"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250sp"
+        android:layout_margin="20sp"
+        android:layout_weight="2"
+        android:fadeScrollbars="false"
+        android:overScrollMode="always"
+        android:persistentDrawingCache="scrolling"
+        android:scrollIndicators="top|bottom"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="10sp"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="vertical"
+        android:verticalScrollbarPosition="right">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:backgroundTint="#7C979797"
+                android:fontFamily="@font/carter_one"
+                android:text="How To Get Google Link"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/googleMyBusinessHyperlink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/google_instructions1"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/google_instructions2"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/google_instructions3"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/google_instructions4"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:backgroundTint="#7C979797"
+                android:fontFamily="@font/carter_one"
+                android:text="How To Get Facebook Link"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/facebookBusinessHyperlink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/facebook_instructions_1"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/facebook_instructions_2"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/facebook_instructions_3"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/facebook_instructions_4"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/facebook_instructions_5"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/facebook_instructions_6"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/facebook_instructions_7"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:backgroundTint="#7C979797"
+                android:fontFamily="@font/carter_one"
+                android:text="How To Get Yelp Link"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/yelp_instructions_1"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/yelpBusinessHyperlink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/yelp_instructions_2"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/yelp_instructions_3"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/yelp_instructions_4"
+                android:textColor="#4E4E4E"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/instructionsDialogCloseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#80D8FF"
+        android:backgroundTint="#80D8FF"
+        android:fontFamily="@font/carter_one"
+        android:text="Close" />
+
+</LinearLayout>

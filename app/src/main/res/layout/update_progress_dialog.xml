@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CCFF90"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:background="#FFFF8D"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center"
+        android:padding="5sp"
+        android:text="Shortening Review Links..."
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <ProgressBar
+        android:id="@+id/linkShorteningProgressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40sp"
+        android:indeterminate="true"
+        android:progressTint="#B388FF"
+        android:progressTintMode="add"
+        android:scaleY="4" />
+</LinearLayout>

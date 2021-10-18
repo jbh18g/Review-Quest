@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CCFF90"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20sp"
+        android:background="#90F4FF81"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="You Have Not Saved Your Preferences!"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center"
+        android:text="All Preferences Will Be Lost Without Saving"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/carter_one"
+        android:foregroundGravity="fill"
+        android:text="Choose An Option Below"
+        android:textColor="#000000" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5sp">
+
+        <Button
+            android:id="@+id/exitWithoutSavingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#82B1FF"
+            android:text="Exit Without Saving" />
+
+        <Button
+            android:id="@+id/saveSetupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight=".5"
+            android:background="#82B1FF"
+            android:gravity="center"
+            android:text="Save Setup " />
+
+        <Button
+            android:id="@+id/continueWorkingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#82B1FF"
+            android:text="Continue Working " />
+    </TableRow>
+</LinearLayout>

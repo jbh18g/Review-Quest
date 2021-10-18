@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Review Quest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="send_review_request">Send Review Request</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="yelp">Yelp</string>
+    <string name="enter_custom_message_note_this_will_overide_note_written_in_setup">Enter Custom Message (Note: this will override note written in setup)</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="setup_screen">Setup Screen</string>
+    <string name="google_review_link">Google Review Link</string>
+    <string name="google_my_business_url">Google My Business URL</string>
+    <string name="facebook_review_link">Facebook Review Link</string>
+    <string name="facbook_url">Facebook Business URL</string>
+    <string name="yelp_review_link">Yelp Review Link</string>
+    <string name="yelp_url">Yelp Business URL</string>
+    <string name="shorten_links">Shorten Links</string>
+    <string name="do_not_shorten_links">Do Not Shorten Links</string>
+    <string name="enter_your_default_message_below">Enter Your Default Message Below</string>
+    <string name="hi_please_leave_a_review_for_my_business">Enter Default Message Here. (Ex: Hi, Please Leave a Review for My Business!)</string>
+    <string name="save">Save</string>
+    <string name="review_quest">Review Quest</string>
+    <string name="send_reviews">Send Reviews</string>
+    <string name="setup">Setup</string>
+    <string name="google_instructions1">► Sign into <a href='http://business.google.com'>Google My Businesses</a>.</string>
+    <string name="google_instructions2">► If you have multiple business locations, open the location you would like to manage.</string>
+    <string name="google_instructions3">► In the menu on the left, click Home.</string>
+    <string name="google_instructions4">► In the “Get more reviews” card, copy your short URL and paste it in the setup screen. </string>
+    <string name="facebook_instructions_1">► Sign in to your <a href='http://business.facebook.com'>Facebook Business Page</a>.</string>
+    <string name="facebook_instructions_2">► Once signed in click “More Tools” on the left side of the screen, followed by “View Page”</string>
+    <string name="facebook_instructions_3">► From here you can click “Reviews” on the left side of the screen and copy the URL that loads</string>
+    <string name="facebook_instructions_4">► If you do not have a Facebook business page, you can create one from your personal Facebook account</string>
+    <string name="facebook_instructions_5">► Underneath your profile picture you will see an "@" username for your page</string>
+    <string name="facebook_instructions_6">► Your username is everything after the "@" symbol</string>
+    <string name="facebook_instructions_7">► Your link will be: https://www.facebook.com/yourusername/reviews</string>
+    <string name="yelp_instructions_1">► Navigate to your Yelp business page any browser as if you were a customer</string>
+    <string name="yelp_instructions_2">► If you have not created a Yelp business page, you can sign up for one <a href='http://business.yelp.com'>here</a></string>
+    <string name="yelp_instructions_3">► Once you are on your Yelp page, copy the URL that is displayed in the browser\'s address bar</string>
+    <string name="yelp_instructions_4">► An example of a Yelp page link is the following: https://www.yelp.com/biz/your-business-name-here</string>
+    <string name="how_to_get_your_business_review_links">How To Get Your Business Review Links</string>
+    <string name="enter_default_reminder_message">Enter Default Reminder Message Here:\n(Ex: Hi, just a reminder to leave a review for my business.)</string>
+    <string name="contact_name">Contact Name</string>
+
+</resources>

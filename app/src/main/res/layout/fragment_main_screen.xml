@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCFF90">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCFF90"
+        android:orientation="vertical"
+        tools:context=".MainScreenFrag">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:fontFamily="@font/carter_one"
+            android:gravity="center"
+            android:text="Request Your Business Review"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/carter_one"
+            android:text="Step 1: Select One or More of the Following:"
+            android:textColor="#000000" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#3C6A6A6A">
+
+            <CheckBox
+                android:id="@+id/facebookCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="48sp"
+                android:layout_weight=".8"
+                android:backgroundTint="#000000"
+                android:buttonTint="#000000"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/facebook"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/googleCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="48sp"
+                android:layout_weight="1"
+                android:buttonTint="#000000"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/google"
+                android:textColor="#000000" />
+
+            <CheckBox
+                android:id="@+id/yelpCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="48sp"
+                android:layout_weight="1.2"
+                android:buttonTint="#000000"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/yelp"
+                android:textColor="#000000" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="10sp"
+            android:fontFamily="@font/carter_one"
+            android:text="Step 2: Search and Select Contacts And/Or Enter a Phone Number Below.  Long Press a Phone Number in the list Below to Delete"
+            android:textColor="#000000" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp">
+
+            <Button
+                android:id="@+id/selectContactButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".5"
+                android:background="#82B1FF"
+                android:fontFamily="@font/carter_one"
+                android:text="Search\nContacts" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/displayContactsRecyclerView"
+                android:layout_width="61dp"
+                android:layout_height="124dp"
+                android:layout_margin="10sp"
+                android:layout_weight="20" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp">
+            <EditText
+                android:id="@+id/enterContactNameBox"
+                android:layout_weight="1"
+                android:paddingStart="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="48sp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10sp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#3C6A6A6A"
+                android:ems="10"
+                android:fontFamily="@font/carter_one"
+                android:hint="@string/contact_name"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#7C7C7C"
+                />
+            <EditText
+                android:id="@+id/phoneNumberBox"
+                android:layout_weight="1"
+                android:paddingStart="5sp"
+                android:layout_width="match_parent"
+                android:layout_height="48sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10sp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#3C6A6A6A"
+                android:ems="10"
+                android:fontFamily="@font/carter_one"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                android:textColor="#000000"
+                android:textColorHint="#7C7C7C" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="10sp"
+            android:fontFamily="@font/carter_one"
+            android:text="Step 3 (OPTIONAL): create a custom message"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/customMessageBox"
+            android:layout_width="350sp"
+            android:layout_height="146dp"
+            android:padding="5sp"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:backgroundTint="#3C6A6A6A"
+            android:ems="10"
+            android:fontFamily="@font/carter_one"
+            android:gravity="start|top"
+            android:hint="@string/enter_custom_message_note_this_will_overide_note_written_in_setup"
+            android:inputType="textMultiLine"
+            android:textColor="#000000"
+            android:textColorHint="#6C6C6C" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="10sp"
+            android:fontFamily="@font/carter_one"
+            android:text="Step 4: Preview your message (Optional) and send it to Clients"
+            android:textColor="#000000" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="55sp"
+            android:layout_margin="10sp"
+            android:layout_weight="2">
+
+            <Button
+                android:id="@+id/previewMessageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="48sp"
+                android:layout_weight="1"
+                android:backgroundTint="#82B1FF"
+                android:fontFamily="@font/carter_one"
+                android:text="Preview Message" />
+
+
+            <Button
+                android:id="@+id/sendReviewButton"
+                android:layout_width="wrap_content"
+                android:layout_height="48sp"
+                android:layout_marginStart="25sp"
+                android:layout_weight="1"
+                android:backgroundTint="#82B1FF"
+                android:fontFamily="@font/carter_one"
+                android:text="@string/send_review_request" />
+        </TableRow>
+
+    </LinearLayout>
+
+</ScrollView>

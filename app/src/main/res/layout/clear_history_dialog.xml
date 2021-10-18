@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CCFF90"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:background="#90F4FF81"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center"
+        android:padding="40sp"
+        android:text="WARNING!"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center"
+        android:text="Clearing your history is irreversible.\n ARE YOU SURE YOU WANT TO CLEAR YOUR HISTORY?"
+        android:textColor="#000000" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5sp">
+
+        <Button
+            android:id="@+id/yesHistoryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#82B1FF"
+            android:text="YES" />
+
+        <Button
+            android:id="@+id/noHistoryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:background="#82B1FF"
+            android:gravity="center"
+            android:text="NO" />
+    </TableRow>
+</LinearLayout>

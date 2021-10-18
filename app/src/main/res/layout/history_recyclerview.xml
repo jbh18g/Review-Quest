@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CCFF90">
+
+    <TableRow
+        android:id="@+id/historyTableRow"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FFD180"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/contactNameView"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableRight="@android:drawable/status_bar_item_background"
+            android:fontFamily="@font/carter_one"
+            android:paddingStart="5sp"
+            android:text="Jake Guitarist"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/phoneNumberView"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableRight="@android:drawable/status_bar_item_background"
+            android:fontFamily="@font/carter_one"
+            android:paddingStart="5dp"
+            android:text="1(954) 529-3155"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/dateSentView"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/carter_one"
+            android:paddingStart="5dp"
+            android:text="Jun 29, 2021 14:18:34 PM"
+            android:textColor="#000000" />
+    </TableRow>
+
+</LinearLayout>

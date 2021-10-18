@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CCFF90"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="25dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#94F4FF81"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center"
+        android:text="Text Preview"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/smsPreviewTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40sp"
+        android:layout_marginEnd="40sp"
+        android:layout_marginBottom="25sp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#529F9F9F"
+        android:fontFamily="@font/carter_one"
+        android:padding="10sp"
+        android:text="SAMPLE TEXT_________"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/textPreviewDialogCloseButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#82B1FF"
+        android:backgroundTintMode="add"
+        android:fontFamily="@font/carter_one"
+        android:text="Close" />
+</LinearLayout>
